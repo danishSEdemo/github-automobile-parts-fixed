@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automobile Parts</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .hero {
+            height: 100vh;
+            background: url('https://source.unsplash.com/random/1920x1080?automobile,parts') center center no-repeat;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .product {
+            margin: 50px 0;
+        }
+        .product img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Automobile Parts</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#exhausts">Exhausts</a></li>
+                <li class="nav-item"><a class="nav-link" href="#rims">Custom Rims</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1 style="color: black;">Welcome to our Automobile Parts Store</h1>
+    </header>
+
+    <section id="exhausts" class="product">
+        <div class="container">
+            <h2>Exhausts</h2>
+            <img src="https://source.unsplash.com/random/300x200?exhaust" alt="Exhaust">
+            <p>High-quality exhausts for your car.</p>
+        </div>
+    </section>
+
+    <section id="rims" class="product">
+        <div class="container">
+            <h2>Custom Rims</h2>
+            <img src="https://source.unsplash.com/random/300x200?rims" alt="Rim">
+            <p>Customize your car with our premium rims.</p>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
